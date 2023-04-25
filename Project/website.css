@@ -1,0 +1,40 @@
+#categories-dropdown:hover + #categories-menu {
+    display: block;
+  }
+  
+  #categories-menu:hover {
+    display: block;
+  }
+  
+  #categories-menu {
+    transition: all 0.3s ease-in-out;
+  }
+  nav.bg-gray-800 {
+      background-color: rgb(102, 27, 56);
+    }
+    a.text-gray-300 {
+      color: white;
+}
+.body {
+    min-height: 100vh;
+    width: 100%;
+    background-image:
+     linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(main3.jpg);
+ 
+    background-position: center;
+    background-size:cover;
+    position: relative;
+  }
+
+  .icon {
+    font-size: 4rem; /* adjust to fit your needs */
+  }
+
+  /* .container {
+    text-align: center;
+  } */
+  .biscuit-items {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
